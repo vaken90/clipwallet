@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>clipwallet</title>
+    <link rel="stylesheet"  href ="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+    <link rel="stylesheet" href ="style.css">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+  <body>
+   <header class="header clearfix">
+       <a href="index.html" class="header__logo">Logo</a>
+       <a href="" class="header__icon-bar">
+           <span></span>
+           <span></span>
+           <span></span>
+       </a>
+       <ul class="header__menu animate">
+           <li class="header__menu__item"><a href="index.html">Home</a> </li>
+           <li class="header__menu__item"><a href="green.html">Ecosostenibilità</a> </li>
+           <li class="header__menu__item"><a href="tomorrow.html">Tomorrow</a> </li>
+           <li class="header__menu__item"><a href="team.html">Team</a> </li>   
+       </ul>
+    </header>
+    <section class="cover cover--green">
+        <div class="cover__filter"></div>
+         <div class="cover__caption">
+            <div class="cover__caption__copy caption--green">
+                <h2>🍀</h2>
+                <h2>🢃</h2>
+            </div>
+         </div>
+    </section>
+
+    <article class="green">
+         <div class="green__copy">
+              <h2  class="green__copy__title">Ecosostenibilità</h2>
+              <p class="green__copy__meta">15.05.2020, in <a href="">News</a>  by <a href="">Valentino</a></p>
+              <p>Vivere in modo sostenibile per l’ambiente e salutare per noi.</p>
+              <p>In questo sito parleremo, tutti gli argomenti riguardanti alla nostra vita, ma soppratutto anche argomenti che riguardano dell’ambiente.</p>
+              <p> In questo sito consideriamo i valori della responsabilità sociale, dell’ambiente, della salute, della sicurezza e della cultura.</p>
+              <p>La causa principale dei cambiamenti climatici in atto è da ritrovare nell’aumento della quantità di gas serra dovuto alle emissioni prodotte dalle attività compiute dall’uomo.</p>
+        </div>
+        
+    </article>
+
+    <section class="cards clearfix">
+      <a href="green.html">
+       <div class="card" >
+          <img class="card__image" src="https://source.unsplash.com/400x260?nature,water" alt="Nature">
+          <div class="card__copy">
+            <h3>Immergiti</h3>
+            <p>nel rispetto della natura</p>
+          </div>
+       
+       </div>
+      </a>
+       <a href="tomorrow.html">
+       <div class="card">
+        <img class="card__image" src="https://source.unsplash.com/400x260?future,innovation" alt="Nature">
+        <div class="card__copy">
+          <h3>Scegli</h3>
+          <p>il tuo domani</p>
+        </div>
+     </div>
+    </a>
+    <a href="team.html">
+     <div class="card">
+      <img class="card__image" src="https://source.unsplash.com/400x260?people,work,office" alt="Nature">
+      <div class="card__copy">
+        <h3>Conosci</h3>
+        <p>la nostra squadra</p>
+      </div>
+   </div>
+  </a>
+    </section>
+     <a href="https://www.amazon.it/gp/goldbox" >
+    <section class="banner clearfix">
+      <div class="banner__image"></div>
+      <div class="banner__copy">
+        <div class="banner__copy__text">
+             <h3>Guarda qui</h3>
+             <h4>Dedicato a TE!</h4>
+             <p>Ecco le nostre fantastiche offerte</p>
+        </div>
+      </div>
+    </section>
+  </a>
+
+   <footer class="footer">
+     <p>Valentino Design 2020</p>
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>   
+    <script>
+    $(document).ready(function(){
+
+           $(".header__icon-bar").click(function(e){
+
+               $(".header__menu").toggleClass('is-open');
+               e.preventDefault();
+
+           });
+    });
+    </script>
+  </body>
+</html>
+
+
+
+

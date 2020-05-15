@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>clipwallet</title>
+    <link rel="stylesheet"  href ="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+    <link rel="stylesheet" href ="style.css">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+  <body>
+   <header class="header clearfix">
+       <a href="index.html" class="header__logo">Logo</a>
+       <a href="" class="header__icon-bar">
+           <span></span>
+           <span></span>
+           <span></span>
+       </a>
+       <ul class="header__menu animate">
+        <li class="header__menu__item"><a href="index.html">Home</a> </li>
+        <li class="header__menu__item"><a href="green.html">Ecosostenibilità</a> </li>
+        <li class="header__menu__item"><a href="tomorrow.html">Tomorrow</a> </li>
+        <li class="header__menu__item"><a href="team.html">Team</a> </li>    
+       </ul>
+    </header>
+    <section class="cover">
+        <div class="cover__filter"></div>
+         <div class="cover__caption">
+            <div class="cover__caption__copy">
+              
+                <h1>Benvenuto nella homepage di clip wallet</h1>
+                <h2>Iscriviti o effettua il login per effettuare pagamenti sicuri</h2>
+                <a href="https://www.conio.com/it/" class="button">Cliccami</a>
+            </div>
+         </div>
+    </section>
+
+    <section class="cards clearfix">
+      <a href="green.html">
+       <div class="card" >
+          <img class="card__image" src="https://source.unsplash.com/400x260?nature,water" alt="Nature">
+          <div class="card__copy">
+            <h3>Immergiti</h3>
+            <p>nel rispetto della natura</p>
+          </div>
+       </div>
+      </a>
+       <a href="tomorrow.html">
+       <div class="card">
+        <img class="card__image" src="https://source.unsplash.com/400x260?future,innovation" alt="Nature">
+        <div class="card__copy">
+          <h3>Scegli</h3>
+          <p>il tuo domani</p>
+        </div>
+     </div>
+    </a>
+    <a href="team.html">
+     <div class="card">
+      <img class="card__image" src="https://source.unsplash.com/400x260?people,work,office" alt="Nature">
+      <div class="card__copy">
+        <h3>Conosci</h3>
+        <p>la nostra squadra</p>
+      </div>
+   </div>
+  </a>
+    </section>
+     <a href="https://www.amazon.it/gp/goldbox" >
+    <section class="banner clearfix">
+      <div class="banner__image"></div>
+      <div class="banner__copy">
+        <div class="banner__copy__text">
+             <h3>Guarda qui</h3>
+             <h4>Dedicato a TE!</h4>
+             <p>Ecco le nostre fantastiche offerte</p>
+        </div>
+      </div>
+    </section>
+  </a>
+
+  
+
+    <footer class="footer">
+     <p>ValentinoDesign2020</p>
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>   
+    <script>
+    $(document).ready(function(){
+
+           $(".header__icon-bar").click(function(e){
+
+               $(".header__menu").toggleClass('is-open');
+               e.preventDefault();
+
+           });
+    });
+    </script>
+  </body>
+</html>
+
+
+
+
