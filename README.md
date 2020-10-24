@@ -1,2 +1,2 @@
 # clipwallet
-a portfolio website
+a portfolio website template
