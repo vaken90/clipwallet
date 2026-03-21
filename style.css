@@ -27,7 +27,7 @@ HEADER
 .header__menu__item{display: inline-block;}
 .header__menu__item a{color:yellow;display: block;padding:20px;}
 .header__menu__item a:hover{background: yellowgreen}
-.header__icon-bar{display: block;float:right;padding: 20px ;display: none;}
+.header__icon-bar{float:right;padding: 20px;display: none;background: none;border: none;cursor: pointer;}
 .header__icon-bar span{display: block;height: 3px;width: 30px;margin-bottom: 5px;background:yellow}/*icona responsive che appare sui telefoni*/
 
 /*********************
@@ -97,6 +97,8 @@ TABLET
 *********************/
 
 @media(max-width:998px){
+
+.card{width: 46%;margin: 0 2% 20px;}
 
 }
 
